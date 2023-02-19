@@ -1,0 +1,1 @@
+The map prints vector 'item' elements from least to greatest in ascending order. I discovered that maps are constructed as self-balancing binary trees. The unordered map has no ordering compared to the ordered map. 
