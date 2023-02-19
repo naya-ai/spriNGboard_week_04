@@ -13,11 +13,11 @@ void func_map (vector<pair<int,string>>& items)
   map<int,string> mp; 
 
 
-  for (auto i=-; i<items.size(); i++){
+  for (auto i=0; i<items.size(); i++){
     mp.insert(pair<int,string>(items[i]));
 }
 
- for(auto &i : myMap){
+ for(auto &i : mp){
       cout << "[" <<  i.first << ", " << i.second << "] \n";
         }
 
